@@ -2,8 +2,7 @@
 # которой находится эта точка (или на какой оси она находится).
 
 while True:
-    print('Input X coordinate: ', end="")
-    x = float(input())
+    x = float(input('Input X coordinate: '))
 
     if x == 0:
         print('incorrect input')
@@ -11,8 +10,7 @@ while True:
         break
 
 while True:
-    print('Input Y coordinate: ', end="")
-    y = float(input())
+    y = float(input('Input Y coordinate: '))
     if y == 0:
         print('incorrect input')
     else:
