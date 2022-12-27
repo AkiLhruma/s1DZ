@@ -5,6 +5,7 @@
 import random
 
 #my_list = [1.1, 1.2, 3.1, 5, 10.01]
+
 my_list = []
 for i in range(random.randrange(5,10)):
     my_list.append(round(random.uniform(1, 10), 2))
